@@ -1,7 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
+Instalar Nodejs:
+https://nodejs.org/en/download/package-manager
+
+Instalar Nextjs:
+npm install next@latest react@latest react-dom@latest
+
+
+## Getting Started
 First, run the development server:
 
 ```bash
@@ -13,6 +20,7 @@ pnpm dev
 # or
 bun dev
 ```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

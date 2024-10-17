@@ -27,14 +27,21 @@
   }
 }
 
+
 .main {
+  background-image: url('https://s3-alpha-sig.figma.com/img/a622/89c3/d9c07b8c46df5a9d9c3c4e3f8f21d1de?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Z2jqCCSODPSwKZCPogMDLWzhcp0J6A4qD4jBtTMSFoBaMicBvc6bcufIgs6ohnLDM6udqmH~xaGDQyVD4nExuHKK8tkz0w03R-fPByHbED2~GIJNgeN0z8QdTa6E4XJN113uhVBH7KaHzUiZOqILhs-pRYyMS~YPoiSNfMUJXTtPgKLhCAUkNPmHf7cJgfWrwSa8Yzwe4sZU-EOGxI04-LNPJPV-9IL6I~0-xmipCw2kbK0N90h9JDp1c0k0F4V~fDfDNmxF1BRQz8iRNzVhuVP3QC~uOjFw1lcNluzJwwhkPgjjb0evmLFbJ2WXt44539N4ASxySwkGy-XGmJefXA__'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Para cobrir toda a tela */
+  background-position: center; /* Centraliza a imagem */
+}
+
+.form {
   display: flex;
   flex-direction: column;
   gap: 32px;
   grid-row-start: 2;
 }
 
-.main ol {
+.form ol {
   font-family: var(--font-geist-mono);
   padding-left: 0;
   margin: 0;
@@ -44,11 +51,11 @@
   list-style-position: inside;
 }
 
-.main li:not(:last-of-type) {
+.form li:not(:last-of-type) {
   margin-bottom: 8px;
 }
 
-.main code {
+.form code {
   font-family: inherit;
   background: var(--gray-alpha-100);
   padding: 2px 4px;
@@ -56,38 +63,66 @@
   font-weight: 600;
 }
 
-.ctas {
-  display: flex;
-  gap: 16px;
+
+/* Carrosel de Persongens */
+.icones {
+  margin: 0 10%;
+  width: 80%;
+  height: 1000px;
+  overflow: hidden;
 }
 
-.ctas a {
-  appearance: none;
-  border-radius: 128px;
-  height: 48px;
-  padding: 0 20px;
-  border: none;
-  border: 1px solid transparent;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 500;
+.icones h1{
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: left;
+  color: #ffffff;
 }
 
-a.primary {
-  background: var(--foreground);
-  color: var(--background);
-  gap: 8px;
+.icone button{
+  border: #ffffff;
 }
 
-a.secondary {
-  border-color: var(--gray-alpha-200);
-  min-width: 180px;
+
+
+.slides h2{
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: left;
+  color: #ffffff;
 }
+
+.slides p{
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.96px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.slide {
+  display: flex; /* Ativa o Flexbox */
+  justify-content: space-between; /* Espaço entre os itens */
+  align-items: center; /* Alinha os itens verticalmente */
+  max-width: 800px; /* Largura máxima do contêiner */
+  margin: auto; /* Centraliza o contêiner */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  
+}
+
+.slide img{
+  height: 250px;
+}
+
+
 
 .footer {
   grid-row-start: 3;

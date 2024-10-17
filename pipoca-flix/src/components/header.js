@@ -1,0 +1,37 @@
+import React, { useState } from "react"
+import Image from 'next/image';
+import styles from "@/styles/Home.module.css";
+
+export default function Header() {
+
+    return (
+        <>
+        <Image
+            className={styles.logo}
+            src="/Header BG.png"
+            alt="Logo PipocaFlix"
+            fill={true}
+            
+          />
+          <div className={styles.header}>
+          <h2>PipocaFlix</h2>
+          <nav className={styles.nav}>
+            <a className={styles.navlink} href="#teste">HOME</a> 
+            <a className={styles.navlink} href="#">CATALOGO</a> 
+            <a className={styles.navlink} href="#">ASSASSINOS</a>
+            <a className={styles.navlink} href="#">INGRESSOS</a> 
+          </nav>
+        </div>
+        <div>
+          <Image
+            className={styles.logofundo}
+            src="/Header BG.png"
+            alt="Logo PipocaFlix"
+            width={2000}
+            height={969}
+            priority={false}
+          />
+        </div>
+        </>
+    )
+}

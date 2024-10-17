@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import Image from 'next/image';
 
 export default function Form() {
 
@@ -47,7 +46,8 @@ export default function Form() {
         });
 
     return (
-        <><div id="container">
+        <>
+        <div id="container">
             <h1>COMPRAR INGRESSO</h1>
             <form method="POST" action="#" onSubmit={submitForm}>
                          
@@ -59,7 +59,6 @@ export default function Form() {
         
                 <input placeholder="Nível de coragem" name="level" value={formData.level} onChange={handleInput}></input>
                 
-
                 <button type="submit">Enviar</button>
             </form>
             <img src="head.png" width="30%"/>
@@ -119,6 +118,6 @@ export default function Form() {
                 
                 
             
-            `}</style></>
+        `}</style></>
     )
 }

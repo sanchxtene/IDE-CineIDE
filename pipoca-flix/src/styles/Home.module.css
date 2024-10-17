@@ -158,8 +158,32 @@ a.secondary {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+
+
   .logo {
-    filter: invert();
+    filter: opacity(1);
   }
+  .logofundo{
+    filter: opacity(0);
+  }
+  .header {
+    background-color:rgba(0, 0, 0, 0.8);
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    padding: 0 30px;
+  }
+  .nav{
+  font-family: var(--font-geist-mono);
+  width: 100%;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  display: flex;
+  justify-content: space-around;
+}
+.navlink{
+  padding: 1rem;
 }

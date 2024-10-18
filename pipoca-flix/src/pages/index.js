@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
 import Form from "@/components/form";
 import Header from "@/components/header";
+import Footer from "@/components/footer"
 import Characters from "@/components/characters";
 
 
@@ -44,7 +45,7 @@ export default function Home() {
           <Form></Form>
         </div>
         
-        <div className={styles.icones}>
+        <div className={styles.icones} id="assassinos">
           <h1>OS ICONES DO TERROR</h1>
 
           <div className={styles.selecionar}>
@@ -152,7 +153,8 @@ export default function Home() {
       </main>
       
       
-      <footer className={styles.footer}/>          
+      <footer className={styles.footer}/>   
+      <Footer></Footer>       
     </>
   );
 }

@@ -194,7 +194,21 @@
 }
 
 
-
+.footertext {
+  display: inline;
+  text-align: center;
+}
+.footerimagem {
+  display: flexbox;
+  text-align: center;
+  padding: 10px;
+}
+.footerimagem2 {
+  display: flexbox;
+  text-align: right;
+  margin-left: 94%;
+  padding-bottom: 10px;
+}
   .logo {
     filter: opacity(1);
   }

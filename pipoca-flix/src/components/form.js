@@ -61,7 +61,7 @@ export default function Form() {
                 
                 <button type="submit">Enviar</button>
             </form>
-            <img src="head.png" width="30%"/>
+            <img src="head.png" />
         </div>
         <style jsx>{`
                 .container {
@@ -73,12 +73,14 @@ export default function Form() {
                     color: #fff;
                     width: 80%;
                 }
+                div {
+                    margin: 10% 0px 5% 20%;
+                }
                 h1 {
-                    margin-bottom: 20px;
                     color: #fff
                 }
                 img {
-                    width: 30%;
+                    width: 20%;
                     display: inline-block;
                 }
                 form {

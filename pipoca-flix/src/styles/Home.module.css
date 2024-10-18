@@ -63,13 +63,68 @@
   font-weight: 600;
 }
 
-
 /* Carrosel de Persongens */
+.selecionar button {
+  font-family: Rammetto One;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 42.22px;
+  text-align: center;
+  width: 16%;
+  height: 56px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.selecionar button {
+  font-family: Rammetto One;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 42.22px;
+  text-align: center;
+  width: 16%;
+  height: 56px;
+  border-radius: 10px;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.selecionar button:hover {
+  font-family: Rammetto One;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 42.22px;
+  text-align: center;
+  width: 16%;
+  height: 56px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: transparent;
+  color: #000000;
+  background-color: #ebcec1;
+}
+
+.selecionar button:active {
+  font-family: Rammetto One;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 42.22px;
+  text-align: center;
+  width: 16%;
+  height: 56px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: transparent;
+  color: #e76c07;
+  background-color: transparent;
+}
+
 .icones {
-  margin: 0 10%;
-  width: 80%;
-  height: 1800px;
-  overflow: hidden;
+  margin: 0 11%;
+  width: 84%;
+  height: 100%;
 }
 
 .icones h1{
@@ -108,17 +163,27 @@
   color: #ffffff;
 }
 
-.slide {
+.slideInicial {
   display: flex; /* Ativa o Flexbox */
   justify-content: space-between; /* Espaço entre os itens */
   align-items: center; /* Alinha os itens verticalmente */
   max-width: 800px; /* Largura máxima do contêiner */
-  margin: auto; /* Centraliza o contêiner */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
-  
 }
 
-.slide img{
+.slideInicial img{
+  height: 250px;
+}
+
+.slideOculto {
+  display: none; /* Ativa o Flexbox */
+  justify-content: space-between; /* Espaço entre os itens */
+  align-items: center; /* Alinha os itens verticalmente */
+  max-width: 800px; /* Largura máxima do contêiner */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.slideOculto img{
   height: 250px;
 }
 

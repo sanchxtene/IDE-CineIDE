@@ -13,7 +13,7 @@ export default function Header() {
             fill={true}
             
           />
-          <div className={styles.header}>
+          <div className={styles.header} id="home">
           <h2>PipocaFlix</h2>
           <nav className={styles.nav}>
             <a className={styles.navlink} href="#home">HOME</a> 

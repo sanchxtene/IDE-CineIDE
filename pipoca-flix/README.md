@@ -4,13 +4,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Instalar Nodejs:
 https://nodejs.org/en/download/package-manager
 
-Instalar Nextjs:
-npm install next@latest react@latest react-dom@latest
 
 
 ## Getting Started
-First, run the development server:
+On the first time run:
+npm install next@latest react@latest react-dom@latest
 
+
+Everytime run the development server:
 ```bash
 npm run dev
 # or

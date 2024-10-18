@@ -35,12 +35,14 @@ export default function Home() {
       <header>
         <Header></Header>
       </header>
-      
-      <main className={styles.form}>
-        <Form></Form>
-      </main>
-      
-      <div className={styles.icones}>
+
+      <main className={styles.main}>
+        
+        <div className={styles.form}>
+          <Form></Form>
+        </div>
+        
+        <div className={styles.icones}>
           <h1>OS ICONES DO TERROR</h1>
 
           <div className={styles.slider}>
@@ -147,9 +149,10 @@ export default function Home() {
 
           </div>
         </div>
-
-
-        <footer className={styles.footer}/>          
+      </main>
+      
+      
+      <footer className={styles.footer}/>          
     </>
   );
 }

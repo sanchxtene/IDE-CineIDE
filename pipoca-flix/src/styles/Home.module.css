@@ -30,7 +30,7 @@
 
 .main {
   background-image: url('https://s3-alpha-sig.figma.com/img/a622/89c3/d9c07b8c46df5a9d9c3c4e3f8f21d1de?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Z2jqCCSODPSwKZCPogMDLWzhcp0J6A4qD4jBtTMSFoBaMicBvc6bcufIgs6ohnLDM6udqmH~xaGDQyVD4nExuHKK8tkz0w03R-fPByHbED2~GIJNgeN0z8QdTa6E4XJN113uhVBH7KaHzUiZOqILhs-pRYyMS~YPoiSNfMUJXTtPgKLhCAUkNPmHf7cJgfWrwSa8Yzwe4sZU-EOGxI04-LNPJPV-9IL6I~0-xmipCw2kbK0N90h9JDp1c0k0F4V~fDfDNmxF1BRQz8iRNzVhuVP3QC~uOjFw1lcNluzJwwhkPgjjb0evmLFbJ2WXt44539N4ASxySwkGy-XGmJefXA__'); /* Substitua pelo caminho da sua imagem */
-  background-size: cover; /* Para cobrir toda a tela */
+  background-size: 100%; /* Para cobrir toda a tela */
   background-position: center; /* Centraliza a imagem */
 }
 
@@ -237,6 +237,94 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+  }
+
+  .header {
+    font-family: "Rammetto One", sans-serif;
+    background-color:rgba(0, 0, 0, 0.8);
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    padding: 0 30px;
+    color: #fff;
+  }
+
+
+  .nav{
+    font-family: var(--font-geist-mono);
+    width: 100%;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+  }
+
+  .slideInicial {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Espaço entre os itens */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 0 5%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+
+  .slideOculto {
+    display: none; /* Ativa o Flexbox */
+    justify-content: center; /* Espaço entre os itens */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 0 3%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+
+
+  .selecionar button {
+    font-family: Rammetto One;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 42.22px;
+    text-align: center;
+    width: 14%;
+    height: 56px;
+    border-radius: 10px;
+    border-color: transparent;
+    color: #ffffff;
+  }
+
+  .selecionar button:hover {
+    font-family: Rammetto One;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 42.22px;
+    text-align: center;
+    width: 14%;
+    height: 56px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: transparent;
+    color: #000000;
+    background-color: #ebcec1;
+  }
+
+  .selecionar button:active {
+    font-family: Rammetto One;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 42.22px;
+    text-align: center;
+    width: 14%;
+    height: 56px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: transparent;
+    color: #e76c07;
+    background-color: transparent;
+  }
+
+  .icones {
+    width: 100%;
   }
 }
 

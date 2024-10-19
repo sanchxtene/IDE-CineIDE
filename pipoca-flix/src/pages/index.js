@@ -38,7 +38,7 @@ export default function Home() {
         <Header></Header>
       </header>
 
-      <div className={styles.grid}>
+      <div className={styles.grid} id="catalogo">
         {Array.from({ length: 16 }, (_, i) => (
           <img
             key={i}

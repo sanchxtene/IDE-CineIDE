@@ -21,7 +21,7 @@ export default function Characters() {
     return (
         <>
 
-        <div className={styles.icones}>
+        <div className={styles.icones} id="assassinos">
             
             <h1>OS ICONES DO TERROR</h1>
             <div className={styles.selecionar}>

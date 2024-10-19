@@ -17,7 +17,7 @@ export default function Header() {
           <h2>PipocaFlix</h2>
           <nav className={styles.nav}>
             <a className={styles.navlink} href="#home">HOME</a> 
-            <a className={styles.navlink} href="#">CATALOGO</a> 
+            <a className={styles.navlink} href="#catalogo">CATALOGO</a> 
             <a className={styles.navlink} href="#assassinos">ASSASSINOS</a>
             <a className={styles.navlink} href="#container">INGRESSOS</a> 
           </nav>

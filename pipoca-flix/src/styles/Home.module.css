@@ -303,3 +303,25 @@
 .navlink{
   padding: 1rem;
 }
+
+/* parte responsável pela grade de posters e por fazer itens flutuarem */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Aumenta o tamanho mínimo dos pôsteres */
+  gap: 20px; /* Aumenta o espaçamento entre os pôsteres */
+  padding: 16px;
+}
+
+.poster {
+  width: 100%;
+  height: auto;
+  max-width: 300px; /* Define um tamanho máximo para os pôsteres */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra esbranquiçada */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.poster:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2); /* Sombra esbranquiçada */
+}

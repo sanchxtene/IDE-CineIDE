@@ -38,6 +38,18 @@ export default function Home() {
         <Header></Header>
       </header>
 
+      <div className={styles.grid}>
+        {Array.from({ length: 16 }, (_, i) => (
+          <img
+            key={i}
+            // Pôsters no diretório posters
+            src={`/posters/${i + 1}.png`}
+            alt={`Poster ${i + 1}`}
+            className={styles.poster}
+          />
+        ))}
+      </div>
+
       <main className={styles.main}>
         
         <div className={styles.characters}>

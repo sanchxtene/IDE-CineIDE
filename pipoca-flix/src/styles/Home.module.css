@@ -316,6 +316,7 @@
 .footertext {
   display: inline;
   text-align: center;
+  color: darkgray;
 }
 .footerimagem {
   display: flexbox;

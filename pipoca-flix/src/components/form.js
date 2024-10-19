@@ -89,19 +89,20 @@ export default function Form() {
                     padding-top: 0;
                 }
                 form {
-                   display: inline-block;
-                    
+                    display: inline-block;
                     width: 60%;
                 }
                 input {
                     width: 95%;
-                    margin-bottom: 10px;
+                    height: 45px;
+                    margin-bottom: 12px;
                     padding: 10px;
                     border-radius: 4px;
                     border: none;
                     background-color: #d35400;
                     color: #fff;
                     display: block;
+                    font-size: 16px;
                 }
                 input::placeholder {
                     color: #fff;

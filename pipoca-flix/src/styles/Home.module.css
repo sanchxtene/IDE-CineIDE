@@ -122,7 +122,7 @@
 }
 
 .icones {
-  margin: 0 11%;
+  margin:  11%;
   width: 84%;
   height: 100%;
 }
@@ -141,7 +141,9 @@
   border: #ffffff;
 }
 
-
+.slides{
+  margin-top: 2%;
+}
 
 .slides h2{
   font-family: "Rammetto One", sans-serif;
@@ -333,9 +335,10 @@
     filter: opacity(0);
   }
   .header {
+    font-family: "Rammetto One", sans-serif;
     background-color:rgba(0, 0, 0, 0.8);
     display: flex;
-    font-size: 30px;
+    font-size: 20px;
     align-items: center;
     position: relative;
     height: 100px;

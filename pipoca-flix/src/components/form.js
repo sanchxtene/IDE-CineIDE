@@ -65,23 +65,28 @@ export default function Form() {
         </div>
         <style jsx>{`
                 .container {
+                    
                     background-color: #1c1c1c;
                     padding: 20px;
                     border-radius: 8px;
                     margin: 0 auto;
                     text-align: center;
                     color: #fff;
-                    width: 80%;
                 }
                 div {
-                    margin: 10% 0px 5% 20%;
+                    margin: 10% 0px 5% 10%;
                 }
                 h1 {
-                    color: #fff
+                    font-family: "Rammetto One", sans-serif;
+                    color: #fff;
+                    padding: 10px;
                 }
                 img {
                     width: 20%;
                     display: inline-block;
+                    margin-left:5%;
+                    margin-top: 0;
+                    padding-top: 0;
                 }
                 form {
                    display: inline-block;
@@ -110,6 +115,7 @@ export default function Form() {
                     border-radius: 4px;
                     cursor: pointer;
                     font-size: 16px;
+                    margin-top:5%;
                 }
                 button:hover {
                     background-color: #e67e22;

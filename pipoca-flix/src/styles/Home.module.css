@@ -361,7 +361,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Aumenta o tamanho mínimo dos pôsteres */
   gap: 20px; /* Aumenta o espaçamento entre os pôsteres */
-  padding: 16px;
+  padding: 5%;
+  margin-top: 120px;
+  justify-items: center;
 }
 
 .poster {
